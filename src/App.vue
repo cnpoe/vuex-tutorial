@@ -1,5 +1,7 @@
 <template>
   <div id="app">
+    <Form/>
+    <Display/>
   </div>
 </template>
 
