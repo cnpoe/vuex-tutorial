@@ -8,5 +8,10 @@ Vue.use(Vuex)
 export const store = new Vuex.Store({
   state: {
     flavor: ''
+  },
+  mutations: {
+    change(state, flavor) {
+      state.flavor = flavor
+    }
   }
 })
